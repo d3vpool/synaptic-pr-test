@@ -12,4 +12,4 @@ function getUserProfile(user) {
   return user.profile.name.toUpperCase(); // no null check on user/profile — Medium
 }
 
-module.exports = { dbHost, dbPort, dbPassword, adminSecretKey, getUser, getUserProfile };
+module.exports = { dbHost, dbPort, getUser, getUserProfile };
